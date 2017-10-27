@@ -38,6 +38,9 @@ import {TRANSITION_EVENTS} from './utils/transition-manager';
 import {viewportLinearInterpolator, viewportFlyToInterpolator}
   from './utils/viewport-transition-utils';
 
+// mapbox
+export {mapboxgl} from './mapbox/mapbox';
+
 // Utilities
 
 // Experimental Features (May change in minor version bumps, use at your own risk)

@@ -27,7 +27,7 @@ const isBrowser = !(
   !process.browser
 );
 
-const mapboxgl = isBrowser ? require('mapbox-gl') : null;
+export const mapboxgl = isBrowser ? require('mapbox-gl') : null;
 
 function noop() {}
 
